@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Environment>
+    <!-- TimeOut -->
+    <TimeOut>5</TimeOut>>
+
+    <!-- WEB -->
+    <Grafana>grafana</Grafana>
+    <SauceDemo>sauceDemo</SauceDemo>
+    <GrafanaUrl>http://localhost:3000/</GrafanaUrl>
+    <SauceDemoUrl>https://www.saucedemo.com/</SauceDemoUrl>
+    <PlatformName>web</PlatformName>
+    <BrowserChrome>chrome</BrowserChrome>
+    <BrowserFox>firefox</BrowserFox>
+    <BrowserEdge>edge</BrowserEdge>
+    <ImageRepo>C:\\Users\\Kfir\\IdeaProjects\\finalProject\\ImageRepository\\</ImageRepo>
+    <DDTpath>./DDTFiles/Grafana.csv</DDTpath>
+
+</Environment>

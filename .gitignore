@@ -1,0 +1,80 @@
+# ===== Java / Maven =====
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+# JetBrains caches
+**/.idea/**/workspace.xml
+**/.idea/**/tasks.xml
+**/.idea/**/dictionaries
+**/.idea/**/shelf
+**/.idea/**/httpRequests
+**/.idea/**/dataSources/
+**/.idea/**/dataSources.local.xml
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ===== Logs / Temp =====
+logs/
+*.log
+*.tmp
+*.swp
+
+# ===== Reports & Artifacts =====
+allure-results/
+allure-report/
+surefire-reports/
+failsafe-reports/
+test-recordings/
+screenshots/
+reports/
+
+# ===== OS files =====
+.DS_Store
+Thumbs.db
+
+# ===== Selenium/WebDrivers (if checked-in accidentally) =====
+chromedriver*
+geckodriver*
+msedgedriver*
+
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
